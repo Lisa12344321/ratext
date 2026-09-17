@@ -1,0 +1,49 @@
+
+html {
+    margin: 0 auto;
+    padding: 0;
+    justify-items: center;
+    width: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+header {
+    justify-items: center;
+    width: 100%;
+}
+
+header > p {
+    width: 80%;
+}
+
+h1 {
+    justify-self: center;
+    font-size: 4rem;
+    max-width: 80vw;
+}
+
+article {
+    max-width: 80vw;
+    justify-self: center;
+}
+
+footer {
+    background-color: blue;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: 0 auto;
+    justify-items: center;
+    width: 100%;
+}
+
+footer > p {
+    max-width: 80vw;
+}
